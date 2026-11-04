@@ -6,18 +6,7 @@ layout: home
 
 <div class="hero-banner">
 
-# SSL Pinning
-
-Dynamic TLS certificate pinning: a server that signs a key registry in real time, plus client SDKs for Android and iOS/macOS that verify and enforce it.
-
-<Terminal title="GET the signed pin registry" command="curl https://ssl-pinning.example.com/api/v1/google.com.json" output='{"payload":{"keys":[...]},"signature":"Zl8cwtiAoEjvdmFXReiioVk3zUM2ymbQGa2hIxvixNR3..."}' max-width="600px" />
-
-<div class="hero-cta">
-
-<a href="/en/guide/architecture"><Button variant="primary" size="lg">Get started</Button></a>
-<a href="https://github.com/ssl-pinning/ssl-pinning"><Button variant="ghost" size="lg">GitHub</Button></a>
-
-</div>
+# Dynamic SSL Pinning
 
 </div>
 
